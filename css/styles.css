@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+hr{
+    margin: 5px 0;
+}
+
+#chat{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 20px auto;
+}
+
+#chatWindow{
+    border: solid 1px gray;
+    height: 60vh;
+}
+
+.chatRow{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.chatRow .time{
+    color: gray;
+}
+
+.chatRow .status{
+    font-style: italic;
+}
+
+.chatRow .nick {
+    margin-right: 10px;
+
+    font-weight: bold;
+}
